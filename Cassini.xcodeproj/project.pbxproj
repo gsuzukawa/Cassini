@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		158F559A1EFAE6E700F64EB3 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158F55991EFAE6E700F64EB3 /* ImageViewController.swift */; };
+		158F559C1EFAEB1300F64EB3 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158F559B1EFAEB1300F64EB3 /* DemoURL.swift */; };
 		7DF238AB1EFA433F00F8FF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF238AA1EFA433F00F8FF2A /* AppDelegate.swift */; };
-		7DF238AD1EFA433F00F8FF2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF238AC1EFA433F00F8FF2A /* ViewController.swift */; };
 		7DF238B01EFA433F00F8FF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF238AE1EFA433F00F8FF2A /* Main.storyboard */; };
 		7DF238B21EFA433F00F8FF2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF238B11EFA433F00F8FF2A /* Assets.xcassets */; };
 		7DF238B51EFA433F00F8FF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF238B31EFA433F00F8FF2A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		158F55991EFAE6E700F64EB3 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		158F559B1EFAEB1300F64EB3 /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 		7DF238A71EFA433F00F8FF2A /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF238AA1EFA433F00F8FF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7DF238AC1EFA433F00F8FF2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DF238AF1EFA433F00F8FF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DF238B11EFA433F00F8FF2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF238B41EFA433F00F8FF2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +37,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		158F55981EFAE64800F64EB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DF238AA1EFA433F00F8FF2A /* AppDelegate.swift */,
+				7DF238B11EFA433F00F8FF2A /* Assets.xcassets */,
+				7DF238B31EFA433F00F8FF2A /* LaunchScreen.storyboard */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
 		7DF2389E1EFA433F00F8FF2A = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +66,11 @@
 		7DF238A91EFA433F00F8FF2A /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				7DF238AA1EFA433F00F8FF2A /* AppDelegate.swift */,
-				7DF238AC1EFA433F00F8FF2A /* ViewController.swift */,
+				158F55991EFAE6E700F64EB3 /* ImageViewController.swift */,
 				7DF238AE1EFA433F00F8FF2A /* Main.storyboard */,
-				7DF238B11EFA433F00F8FF2A /* Assets.xcassets */,
-				7DF238B31EFA433F00F8FF2A /* LaunchScreen.storyboard */,
+				158F559B1EFAEB1300F64EB3 /* DemoURL.swift */,
 				7DF238B61EFA433F00F8FF2A /* Info.plist */,
+				158F55981EFAE64800F64EB3 /* Support Files */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
@@ -136,8 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DF238AD1EFA433F00F8FF2A /* ViewController.swift in Sources */,
+				158F559A1EFAE6E700F64EB3 /* ImageViewController.swift in Sources */,
 				7DF238AB1EFA433F00F8FF2A /* AppDelegate.swift in Sources */,
+				158F559C1EFAEB1300F64EB3 /* DemoURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +313,7 @@
 				7DF238BB1EFA433F00F8FF2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
