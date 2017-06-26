@@ -107,6 +107,7 @@
 				TargetAttributes = {
 					7DF238A61EFA433F00F8FF2A = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W7E45M9TQZ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -274,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7E45M9TQZ;
 				INFOPLIST_FILE = Cassini/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suzukawa.Cassini;
@@ -286,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7E45M9TQZ;
 				INFOPLIST_FILE = Cassini/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.suzukawa.Cassini;
