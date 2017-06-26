@@ -20,12 +20,26 @@
                     <view key="view" contentMode="scaleToFill" id="CFO-Xt-pKa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dsm-ft-mPq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dsm-ft-mPq" firstAttribute="leading" secondItem="CFO-Xt-pKa" secondAttribute="leading" id="2R2-ci-efX"/>
+                            <constraint firstAttribute="trailing" secondItem="Dsm-ft-mPq" secondAttribute="trailing" id="93t-yJ-md9"/>
+                            <constraint firstItem="Dsm-ft-mPq" firstAttribute="top" secondItem="CFO-Xt-pKa" secondAttribute="top" id="exg-Ks-0hS"/>
+                            <constraint firstItem="Dsm-ft-mPq" firstAttribute="bottom" secondItem="rp8-92-Wtj" secondAttribute="top" id="okS-Gs-Qzu"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="scrollView" destination="Dsm-ft-mPq" id="dll-PW-swh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5qd-9W-vAd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="169" y="-17"/>
+            <point key="canvasLocation" x="168.80000000000001" y="-17.541229385307346"/>
         </scene>
     </scenes>
 </document>
